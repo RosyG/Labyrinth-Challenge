@@ -1,0 +1,49 @@
+body{
+margin: 0;
+height: 550px;
+}
+#background-game{
+  margin-left: 150px;
+  margin-top: 10px;
+  background-color: pink;
+  width: 1000px;
+  padding: 50px;
+}
+#container-animation{
+  width: 893px;
+  height: 504px;
+  background-color: black;
+  margin-left: 55px;
+  margin-bottom: 15px;
+  position: relative;
+}
+#container-animation>div{
+  width: 50px;
+  height: 50px;
+  display:inline-block;
+  margin: 1px;
+  background-color: black;
+}
+h1{
+  position: absolute;
+  top:10px;
+  left: 673px;
+  font-weight: 900;
+}
+#container-animation>img{
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+
+}
+#teseo{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0px;
+
+}
+#minotaur{
+  width: 50px;
+  height: 50px;
+}
